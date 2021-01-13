@@ -19,7 +19,8 @@ const IntroComponent = ({ history }) => {
         </Typography >
         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
           Sinterklaas zat te denken, zal ik de cadeaus zomaar schenken.
-          Helaas Mar, je bent er bijna.
+          Helaas Mar, je bent er bijna! Hierna zal een quiz volgen met 5 vragen. Na 5 juiste antwoorden zal het laatste stukje van de puzzel duidelijk worden.
+          Let op! Bij elk fout antwoord zal de quiz automatisch opnieuw beginnen.
         </Typography>
         <CardActions>
           <Button variant="contained" size="large" color="primary" onClick={() => history.push('/quiz')}>
