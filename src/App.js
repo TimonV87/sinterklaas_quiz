@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { AppBar, Container, Grid, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Container, Toolbar, Typography } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 
@@ -18,8 +18,6 @@ const theme = createMuiTheme({
 		}
 	},
 });
-
-const activeStep = 0;
 
 function App() {
 	return (
