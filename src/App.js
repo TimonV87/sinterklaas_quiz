@@ -9,6 +9,7 @@ import {
 	Switch,
 	Route,
 } from "react-router-dom";
+import GedichtComponent from './GedichtComponent';
 import IntroComponent from './IntroComponent';
 import QuizComponent from './QuizComponent';
 const theme = createMuiTheme({
@@ -32,7 +33,8 @@ function App() {
 			<Container maxWidth="lg">
 				<Router>
 					<Switch>
-						<Route path="/" exact component={IntroComponent} />
+						<Route path="/" exact component={GedichtComponent} />
+						<Route path="/intro" exact component={IntroComponent} />
 						<Route path="/quiz" exact component={QuizComponent} />
 					</Switch>
 				</Router>

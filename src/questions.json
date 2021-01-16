@@ -75,7 +75,7 @@
       "correctAnswer": "Esmee Nauta"
     },
     {
-      "question": "Waarom staat Roy het meest bekend bij zijn vrienden?",
+      "question": "Waar staat Roy het meest bekend om bij zijn vrienden?",
       "answers": [
         "De lengte van zijn penis",
         "Dat hij altijd minstens een half uur te laat is",
@@ -84,14 +84,13 @@
       "correctAnswer": "Dat hij altijd minstens een half uur te laat is"
     },
     {
-      "question": "Waar is Thijmen zoal in slaap gevallen tijdens dronken avond",
+      "question": "Hoe hebben Roy en Thijmen elkaar leren kennen.",
       "answers": [
-        "Op de spoorwegovergang",
-        "In de bosjes naast de shell",
-        "Hangend over zijn fiets in de schuur",
-        "Alle bovenstaande"
+        "Door de gedeelde passie voor skateboarden.",
+        "Thijmen is ooit via via uitgenodigd om mee te gaan naar Reeuwijk, daar heeft hij iedereen omgekocht met 2 kratten bier en 6 pakken peuken.",
+        "Thijmen woonde bij Tom in de straat en die heeft hem voorgesteld aan Roy."
       ],
-      "correctAnswer": "Alle bovenstaande"
+      "correctAnswer": "Thijmen is ooit via via uitgenodigd om mee te gaan naar Reeuwijk, daar heeft hij iedereen omgekocht met 2 kratten bier en 6 pakken peuken."
     }
   ]
 }

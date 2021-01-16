@@ -81,13 +81,13 @@ const QuizComponent = () => {
               {activeStep === steps.length ? (
                 <>
                   <Grid item xs={12}>
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.instructions}>
-                      Je hebt successvol de quiz afgerond.
+                    <Typography gutterBottom variant="h1" component="h2" className={classes.instructions}>
+                      Gefeliciteerd!!!
                     </Typography>
                   </Grid>
                   <Grid item xs={12}>
-                    <Typography gutterBottom variant="body1" component="p">
-                      De cijfercode is: 1234
+                    <Typography gutterBottom variant="h5" component="h5">
+                      De cijfercode is: 812
                     </Typography>
                   </Grid>
                 </>
