@@ -4,7 +4,7 @@ import { withRouter } from 'react-router';
 
 const useStyles = makeStyles({
   media: {
-    height: 500,
+    height: 300,
   }
 })
 
@@ -22,7 +22,7 @@ const IntroComponent = ({ history }) => {
           Helaas Mar dit gaat niet gebeuren, god wat zal jij nu treuren.
         </Typography>
         <Typography gutterBottom variant="body1" component="p">
-          Hierna zal een quiz volgen met 5 vragen.
+          Hierna volgt een quiz met 5 vragen.
         </Typography>
         <Typography gutterBottom variant="body1" component="p">
           Na 5 juiste antwoorden zal het laatste stukje van de puzzel duidelijk worden.
@@ -32,6 +32,9 @@ const IntroComponent = ({ history }) => {
         </Typography>
         <Typography gutterBottom variant="body1" component="p">
           Bij elke vraag mag 1 persoon je helpen, zolang het niet de persoon is waar het over gaat.
+        </Typography>
+        <Typography gutterBottom variant="body1" component="p">
+          Onthul nu maar snel je surprise en begin aan de quiz. Succes!
         </Typography>
         <CardActions>
           <Button variant="contained" size="large" color="primary" onClick={() => history.push('/quiz')}>

@@ -81,7 +81,7 @@ const QuizComponent = () => {
               {activeStep === steps.length ? (
                 <>
                   <Grid item xs={12}>
-                    <Typography gutterBottom variant="h1" component="h2" className={classes.instructions}>
+                    <Typography gutterBottom variant="h5" component="h5" className={classes.instructions}>
                       Gefeliciteerd!!!
                     </Typography>
                   </Grid>

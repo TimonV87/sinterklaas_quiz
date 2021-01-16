@@ -4,7 +4,7 @@ import { withRouter } from 'react-router';
 
 const useStyles = makeStyles({
   media: {
-    height: 500,
+    height: 300,
   }
 })
 
